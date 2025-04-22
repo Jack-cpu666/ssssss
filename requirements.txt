@@ -1,0 +1,13 @@
+# requirements.txt for the Consolidated Flask Server
+
+Flask>=2.0.0
+Flask-SocketIO>=5.0.0
+python-dotenv>=0.19.0 # For loading environment variables (optional but good practice)
+
+# Required async mode for SocketIO in this script
+eventlet>=0.30.0
+
+# Gunicorn is needed for deployment on Render
+gunicorn>=20.0.0
+
+# Add other dependencies if needed
